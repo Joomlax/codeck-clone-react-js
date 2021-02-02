@@ -1,3 +1,8 @@
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .hero {
   text-align: center;
   margin-top: 50px;
@@ -6,10 +11,12 @@
   justify-content: space-between;
 }
 .hero-text {
+  padding-left: 100px;
   text-align: left;
 }
 .hero-image {
-  text-align: left;
+  text-align: right;
+  padding-right: 100px;
 }
 .hero-title {
   text-align: left;
