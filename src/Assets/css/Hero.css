@@ -1,0 +1,36 @@
+.hero {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text {
+  text-align: left;
+}
+.hero-image {
+  text-align: left;
+}
+.hero-title {
+  text-align: left;
+  font-weight: 800;
+}
+.hero-yeniyiz {
+  text-align: left;
+  font-weight: 800;
+}
+.hero-birlikteyiz {
+  text-align: left;
+  font-weight: 800;
+  color: red;
+}
+
+.hero-parag {
+  font-weight: 600;
+  text-align: left;
+}
+
+.hero-space {
+  height: 406px;
+  max-height: 100%;
+}

@@ -12,7 +12,7 @@ export class Navbar extends Component {
       <div className="nav">
         <div className="nav-left">
           <a href="/#">
-            <img className="logo" src={Logo2} alt="logo" />
+            <img className="logo" alt="social media Logo" src={Logo2} />
             <br />
             <p className="nav-logoParagraph">
               <small>Codeck Yazılım AŞ</small>
@@ -20,16 +20,32 @@ export class Navbar extends Component {
           </a>
           <div className="social-media">
             <a href="/#">
-              <img className="social-logo" src={youtubeLogo} />
+              <img
+                className="social-logo"
+                alt="social media Logo"
+                src={youtubeLogo}
+              />
             </a>
             <a href="/#">
-              <img className="social-logo" src={facebookLogo} />
+              <img
+                className="social-logo"
+                alt="social media Logo"
+                src={facebookLogo}
+              />
             </a>
             <a href="/#">
-              <img className="social-logo" src={instagramLogo} />
+              <img
+                className="social-logo"
+                alt="social media Logo"
+                src={instagramLogo}
+              />
             </a>
             <a href="/#">
-              <img className="social-logo" src={linkedLogo} />
+              <img
+                className="social-logo"
+                alt="social media Logo"
+                src={linkedLogo}
+              />
             </a>
           </div>
         </div>
