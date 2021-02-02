@@ -1,0 +1,23 @@
+.what-title {
+  color: #7c7c7c;
+  padding-left: 40px;
+}
+
+.what-title2 {
+  padding-left: 40px;
+  font-weight: bolder;
+}
+
+.what-categorie {
+  margin: auto;
+
+  display: inline;
+  padding-left: 20px;
+  text-decoration-line: none !important;
+  font-size: 36px;
+}
+
+.what-categorie > a:hover {
+  color: red !important;
+  transition: ease 1.3s;
+}
