@@ -1,0 +1,9 @@
+.work {
+  padding: 100px 0 0 0;
+}
+
+.work-image > img {
+  height: 500px;
+  width: 100%;
+  object-fit: contain;
+}
