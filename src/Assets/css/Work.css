@@ -1,9 +1,50 @@
 .work {
-  padding: 100px 0 0 0;
+  padding-top: 100px;
+  padding-left: 40px;
+  height: 700px;
 }
 
 .work-image > img {
-  height: 500px;
+  height: 100%;
+  width: 100%;
+}
+
+.work-desc {
+  justify-content: center;
+  align-items: center;
+}
+
+.work-category {
+  color: #7c7c7c;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.work-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
   width: 100%;
   object-fit: contain;
+}
+
+.work-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.work-links {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: #aa0bff;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.work-website::before {
+  font-weight: 100;
+  margin-left: 50px;
+  margin-right: 50px;
+  content: "|";
 }

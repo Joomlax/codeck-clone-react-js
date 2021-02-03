@@ -24,10 +24,24 @@ export class Work extends Component {
   }
   render() {
     return (
-      <div className="row work">
-        <div className="col-6 work-desc">{this.state.title}</div>
-        <div className="col-6 work-image">
-          <img src={this.state.image} />
+      <div className="work">
+        <div className="row ">
+          <div className="col-6 work-desc align-items-center justify-content-center">
+            <h2 className="work-title">{this.state.title}</h2>
+            <h4 className="work-category">{this.state.category}</h4>
+            <p className="work-description">{this.state.description}</p>
+            <div className="work-links">
+              <a href={this.state.gallery} className="work-gallery">
+                GALERİ
+              </a>
+              <a href={this.state.website} className="work-website">
+                WEBSİTESİ
+              </a>
+            </div>
+          </div>
+          <div className="col-6 work-image">
+            <img src={this.state.image} />
+          </div>
         </div>
       </div>
     );
