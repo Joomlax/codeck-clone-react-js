@@ -1,7 +1,7 @@
 /* Routing */
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 /* Routing */
-import Contact from "./components/Contact.js";
+import About from "./components/About.js";
 import Index from "./components/Index";
 
 /*There is a bug in the line 16 -> if path comes / router is not working!! Be CAREFUL */
@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/index" component={Index} />
-          <Route path="/about" component={Contact} />
+          <Route path="/about" component={About} />
           <Route component={Error} />
         </Switch>
       </div>

@@ -55,7 +55,7 @@ export class Navbar extends Component {
               <a href="/#">Anasayfa</a>
             </li>
             <li className="nav-info">
-              <a href="/#">Hakkımızda</a>
+              <a href="/about">Hakkımızda</a>
             </li>
             <li className="nav-info">
               <a href="/#">Projelerimiz</a>
