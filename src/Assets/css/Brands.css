@@ -1,0 +1,23 @@
+.brands {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.brands-description {
+  margin: auto;
+}
+
+.brands-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.brands-desc {
+  color: #7c7c7c;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.brands-logo {
+  max-height: 200px;
+}
