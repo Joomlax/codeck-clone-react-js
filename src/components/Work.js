@@ -26,7 +26,7 @@ export class Work extends Component {
     return (
       <div className="work">
         <div className="row ">
-          <div className="col-6 work-desc align-items-center justify-content-center">
+          <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 work-desc align-items-center justify-content-center">
             <h2 className="work-title">{this.state.title}</h2>
             <h4 className="work-category">{this.state.category}</h4>
             <p className="work-description">{this.state.description}</p>
@@ -39,7 +39,7 @@ export class Work extends Component {
               </a>
             </div>
           </div>
-          <div className="col-6 work-image">
+          <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 work-image">
             <img src={this.state.image} />
           </div>
         </div>
