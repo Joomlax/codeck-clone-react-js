@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../Assets/css/WhoAreWe.css";
+import "../../Assets/css/WhoAreWe.css";
 
 function WhoAreWe() {
   return (

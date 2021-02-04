@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../Assets/css/Hero.css";
-import Space from "../Assets/img/space.svg";
+import "../../Assets/css/Hero.css";
+import Space from "../../Assets/img/space.svg";
 export class Hero extends Component {
   render() {
     return (

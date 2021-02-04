@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Assets/css/WhatDo.css";
+import "../../Assets/css/WhatDo.css";
 export class WhatDo extends Component {
   render() {
     return (

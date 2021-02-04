@@ -1,8 +1,8 @@
 /* Routing */
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 /* Routing */
-import About from "./components/About.js";
-import Index from "./components/Index";
+import About from "./components/About/About";
+import Index from "./components/Home/Index";
 
 /*There is a bug in the line 16 -> if path comes / router is not working!! Be CAREFUL */
 

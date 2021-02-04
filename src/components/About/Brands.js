@@ -1,12 +1,12 @@
 import React from "react";
-import "../Assets/css/Brands.css";
-import Gitmeden from "../Assets/img/gitmeden-logo.svg";
-import Podbia from "../Assets/img/podbia.svg";
-import Kafeinbox from "../Assets/img/kafeinbox.svg";
-import Iciniz from "../Assets/img/iciniz-logo.svg";
-import Musavir from "../Assets/img/musavir-logo.svg";
-import Coready from "../Assets/img/coready-logo.svg";
-import Burada from "../Assets/img/burada-logo.svg";
+import "../../Assets/css/Brands.css";
+import Gitmeden from "../../Assets/img/gitmeden-logo.svg";
+import Podbia from "../../Assets/img/podbia.svg";
+import Kafeinbox from "../../Assets/img/kafeinbox.svg";
+import Iciniz from "../../Assets/img/iciniz-logo.svg";
+import Musavir from "../../Assets/img/musavir-logo.svg";
+import Coready from "../../Assets/img/coready-logo.svg";
+import Burada from "../../Assets/img/burada-logo.svg";
 
 function Brands() {
   return (

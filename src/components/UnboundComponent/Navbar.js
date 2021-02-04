@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "../Assets/css/Navbar.css";
-import Logo2 from "../Assets/img/codeck.svg";
-import youtubeLogo from "../Assets/img/youtube-color.svg";
-import facebookLogo from "../Assets/img/facebook-color.svg";
-import linkedLogo from "../Assets/img/linkedin-color.svg";
-import instagramLogo from "../Assets/img/instagram-color.svg";
+import "../../Assets/css/Navbar.css";
+import Logo2 from "../../Assets/img/codeck.svg";
+import youtubeLogo from "../../Assets/img/youtube-color.svg";
+import facebookLogo from "../../Assets/img/facebook-color.svg";
+import linkedLogo from "../../Assets/img/linkedin-color.svg";
+import instagramLogo from "../../Assets/img/instagram-color.svg";
 
 export class Navbar extends Component {
   render() {

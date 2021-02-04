@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../Assets/css/Work.css";
+import "../../Assets/css/Work.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export class Work extends Component {

@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import "../Assets/css/Show.css";
-import Tvekstra from "../Assets/img/tvekstra.svg";
-import Amvg from "../Assets/img/amvg.svg";
-import Bmsumer from "../Assets/img/bmsumer.png";
-import AkilliAhtapot from "../Assets/img/akilliahtapot.svg";
-import USdanis from "../Assets/img/us-danis-logo.svg";
-import Pryapim from "../Assets/img/pryapim.svg";
-import Kafeinbox from "../Assets/img/kafeinbox.svg";
-import Ungo from "../Assets/img/unogo-logo.png";
-import Dogaldede from "../Assets/img/dogaldede-logo.png";
-import Atakan from "../Assets/img/atakan-logo.svg";
-import ArtiSaglik from "../Assets/img/arti-saglik.svg";
-import Udef from "../Assets/img/udef-logo.svg";
+import "../../Assets/css/Show.css";
+import Tvekstra from "../../Assets/img/tvekstra.svg";
+import Amvg from "../../Assets/img/amvg.svg";
+import Bmsumer from "../../Assets/img/bmsumer.png";
+import AkilliAhtapot from "../../Assets/img/akilliahtapot.svg";
+import USdanis from "../../Assets/img/us-danis-logo.svg";
+import Pryapim from "../../Assets/img/pryapim.svg";
+import Kafeinbox from "../../Assets/img/kafeinbox.svg";
+import Ungo from "../../Assets/img/unogo-logo.png";
+import Dogaldede from "../../Assets/img/dogaldede-logo.png";
+import Atakan from "../../Assets/img/atakan-logo.svg";
+import ArtiSaglik from "../../Assets/img/arti-saglik.svg";
+import Udef from "../../Assets/img/udef-logo.svg";
 
 export class Show extends Component {
   render() {

@@ -1,6 +1,6 @@
 import React from "react";
-import "../Assets/css/AboutHero.css";
-import Boy from "../Assets/img/boyimg.png";
+import "../../Assets/css/AboutHero.css";
+import Boy from "../../Assets/img/boyimg.png";
 
 function AboutHero() {
   return (

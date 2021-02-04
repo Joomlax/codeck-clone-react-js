@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 
-import "../Assets/css/App.css";
+import "../../Assets/css/App.css";
 
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import WhatDo from "../components/WhatDo";
-import Work from "../components/Work";
-import Ahtapot from "../Assets/img/ahtapot.svg";
-import Bmsumer from "../Assets/img/bmsumer.jpg";
-import Hamidiye from "../Assets/img/hamidiye.png";
-import Podbia from "../Assets/img/podbia.png";
-import Kafeinbox from "../Assets/img/kafeinbox.jpg";
-import Adekstra from "../Assets/img/adekstra.svg";
-import Iciniz from "../Assets/img/iciniz.png";
-import Gitmeden from "../Assets/img/gitmeden.png";
-import Gorselco from "../Assets/img/gorselco.svg";
-import Musavir from "../Assets/img/musavir.svg";
+import Navbar from "../UnboundComponent/Navbar";
+import Hero from "./Hero";
+import WhatDo from "./WhatDo";
+import Work from "./Work";
+import Ahtapot from "../../Assets/img/ahtapot.svg";
+import Bmsumer from "../../Assets/img/bmsumer.jpg";
+import Hamidiye from "../../Assets/img/hamidiye.png";
+import Podbia from "../../Assets/img/podbia.png";
+import Kafeinbox from "../../Assets/img/kafeinbox.jpg";
+import Adekstra from "../../Assets/img/adekstra.svg";
+import Iciniz from "../../Assets/img/iciniz.png";
+import Gitmeden from "../../Assets/img/gitmeden.png";
+import Gorselco from "../../Assets/img/gorselco.svg";
+import Musavir from "../../Assets/img/musavir.svg";
 
 export class Index extends Component {
   render() {

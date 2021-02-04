@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Navbar from "../components/Navbar";
-import WhoAreWe from "../components/WhoAreWe";
-import AboutHero from "../components/AboutHero";
-import Customer from "../components/Customer";
-import Brands from "../components/Brands";
+import Navbar from "../../components/UnboundComponent/Navbar";
+import WhoAreWe from "./WhoAreWe";
+import AboutHero from "./AboutHero";
+import Customer from "./Customer";
+import Brands from "./Brands";
 export class About extends Component {
   render() {
     return (
